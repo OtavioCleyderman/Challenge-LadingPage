@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container img {
+  height: 100%;
+}
+
+.background-section-one {
+  background-image: url(../assets/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-section-two {
+  background-image: url(../assets/bg2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-section-two > p {
+  margin-top: 5px;
+  color: white;
+  font-size: 12px;
+}
+
+.background-section-two > p a {
+  text-decoration: none;
+  color: red;
+}
+
+.offer-container {
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 100px 0;
+}
+
+.offer-container h1 {
+  font-size: 50px;
+
+}
+
+.card-container {
+  background-image: url(../assets/cardGamer.jpg);
+  border-radius: 25px;
+  padding: 25px;
+  width: 450px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form p {
+  color: white;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+input.submit{
+  background: linear-gradient(to right top, #0064ff, #6b5cff, #9d4ffe, #c73cf7, #eb12eb);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+
+.background-footer {
+  background-image: url(../assets/bgFooter.jpg);
+  background-attachment: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+footer div {
+  margin-bottom: 10px;
+}
+
+p.copyright i {
+  margin: 0 5px ;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+
+.social-icons a:hover {
+  color: rgba(255, 255, 255);
+  transition: all 1s;
+}
