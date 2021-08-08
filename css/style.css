@@ -18,18 +18,14 @@ html {
 }
 
 .section-container img {
-  height: 100%;
+  width: 100%;
+  height: 100%; 
 }
 
-.background-section-one {
-  background-image: url(../assets/bg.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .background-section-two {
-  background-image: url(../assets/bg2.jpg);
+  /* background-image: url(../assets/bg2.jpg); */
+  background-image: url(https://d1.awsstatic.com/game-tech-solutions-page-icons/Fortnite_gt-landing-page_1200x600.248150bfce6a0fb32733bf05e5af09a39b38a7b3.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,7 +60,7 @@ html {
   background-image: url(../assets/cardGamer.jpg);
   border-radius: 25px;
   padding: 25px;
-  width: 450px;
+  width: 500px;
 
 }
 
@@ -80,7 +76,7 @@ form p {
 }
 
 input {
-  width: 150px;
+  width: 200px;
   height: 30px;
   margin-bottom: 10px;
   text-align: center;
@@ -95,7 +91,8 @@ input.submit{
 
 
 .background-footer {
-  background-image: url(../assets/bgFooter.jpg);
+  /* background-image: url(../assets/bgFooter.jpg); */
+  background-image: url(https://ak.picdn.net/shutterstock/videos/14411224/thumb/1.jpg);
   background-attachment: initial;
   background-size: cover;
   background-repeat: no-repeat;
